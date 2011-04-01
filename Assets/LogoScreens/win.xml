@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logoScreen backgroundTexture="Images/background.png" logoTexture="Images/win.png"
+            fadeTime="300" duration="0" defaultDeactivationEvent="19"
+			backgroundSound="Sounds/win.ogg" scaleTime="1000" loopBackgroundSound="false">
+    <activationEvents>
+        <activationEvent value="13"/>
+    </activationEvents>
+</logoScreen>

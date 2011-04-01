@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Readme</title>
+    <style type="text/css">
+        body {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        table {
+            border: 1px solid gray;
+        }
+
+        table td {
+            padding: 0 10px;
+        }
+
+        ol.sublist li {
+            list-style: lower-latin;
+        }
+    </style>
+</head>
+<body>
+<h1>Pathman</h1>
+
+<h2>Copyright (c) <a href="mailto:constantin.titarenko@gmail.com">Constantin Titarenko</a>, March 5, 2011</h2>
+
+<p>
+    This small game was written as a solution for Remote Task of <a href="http://xpn.com.ua/">XPN</a>.
+</p>
+
+<p>
+    Main character has few lives that can be lost when meeting with enemy.
+    The goal is to collect all coins and not to lose all lives.
+</p>
+
+<table>
+    <caption>Game controls</caption>
+    <tbody>
+    <tr>
+        <td>W</td>
+        <td>move up (forward)</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>move down (back)</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>move left</td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>move right</td>
+    </tr>
+    <tr>
+        <td>Mouse</td>
+        <td>view angles</td>
+    <tr>
+        <td>Mouse's wheel</td>
+        <td>distance from the game board</td>
+    </tr>
+    <tr>
+        <td>Space</td>
+        <td>pause level</td>
+    </tr>
+    <tr>
+        <td>Escape</td>
+        <td>abort level</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<p>
+    However, game controls can be customized using game configuration files.
+</p>
+
+<p>
+    If you are advanced user and you want to customize game (that can be done very easily
+    since game was designed to be customizable) start from config.xml file
+    and use technical documentation to figure out parameters' purposes (though all parameters
+    are enough self-documenting and self-describing). Game assets file (Assets.paf) is a zip
+    archive with password "VidIvDiefboiljIlcofs".
+</p>
+
+<p>
+    See acknowledgements at <a href="acknowledgements.htm">acknowledgements.htm</a>.
+</p>
+
+<h2>Warning!</h2>
+
+<p>
+    If you are developer then you should know that this application uses modified version of Irrlicht 1.7.2!
+    Details can be found at Irrlicht/Changes/readme.txt.
+</p>
+
+<h2>Additional notes</h2>
+
+<p>In order to build application you should:</p>
+
+<ol>
+    <li>open Pathman.sln in Microsoft Visual C++ 2008 (Express Edition) or above;</li>
+    <li>choose Release build configuration;</li>
+    <li>build solution;</li>
+    <li>pack assets:
+        <ol class="sublist">
+            <li>if you have installed 7-Zip then run PackAssets.bat;</li>
+            <li>
+                otherwise change attribute "Path" of the "assets" element in the config.xml
+                from "Assets.paf" to "./Assets/" (that will instruct Pathman to use unpacked
+                assets).
+            </li>
+        </ol>
+    </li>
+</ol>
+</body>
+</html>

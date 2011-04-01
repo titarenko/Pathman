@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logoScreen backgroundTexture="Images/background.png" logoTexture="Images/lose.png"
+            fadeTime="300" duration="0" defaultDeactivationEvent="20"
+			backgroundSound="Sounds/lose.ogg" scaleTime="1000" loopBackgroundSound="false">
+    <activationEvents>
+        <activationEvent value="14"/>
+    </activationEvents>
+</logoScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu fadeTime="300" backgroundTexture="Images/background.png"
+      columnsCount="2" margin="10" buttonWidth="380" buttonHeight="80"
+      defaultButtonTexture="Images/button.png"
+      activeButtonTexture="Images/button-active.png"
+      clickedButtonTexture="Images/button-clicked.png"
+      font="Fonts/indigo-20.xml" fontColorRed="0" fontColorGreen="0" fontColorBlue="50"
+      defaultDeactivationEvent="0"
+	  backgroundSound="Sounds/silence.ogg" loopBackgroundSound="true">
+    <activationEvents>
+        <activationEvent value="4"/>
+        <activationEvent value="8"/>
+    </activationEvents>
+    <buttons clickSound="Sounds/click.ogg" selectSound="Sounds/select.ogg">
+        <button event="5" text="Make some noise!"/>
+        <button event="6" text="Be quiet!"/>
+    </buttons>
+</menu>

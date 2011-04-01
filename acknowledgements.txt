@@ -1,0 +1,60 @@
+Acknowledgements
+
+Development Tools
+Microsoft Visual C++ 2008 Express Edition	http://www.microsoft.com/express/
+
+Libraries
+Irrlicht	http://irrlicht.sourceforge.net/
+IrrKlang	http://www.ambiera.com/irrklang/
+
+Fonts
+
+Tools
+FontTool	http://irrlicht.sourceforge.net/
+
+Fonts
+cheri-20.xml	http://www.dafont.com/cheri.font
+indigo-20.xml	http://www.dafont.com/indigo-joker.font
+mario-20.xml	http://www.dafont.com/super-mario-bros.font
+
+Images
+
+Tools
+GIMP	http://www.gimp.org/
+
+Images
+backtron.jpg, 
+downtron.jpg, 
+fronttron.jpg, 
+lefttron.jpg, 
+righttron.jpg, 
+uptron.jpg	http://www.3delyvisions.com/sky20.zip
+gameloft-logo.png	http://xpn.com.ua/
+others	self-made
+
+Models
+
+Tools
+Panda DirectX Exporter	http://www.andytather.co.uk/Panda/directxmax.aspx
+
+Models
+all	http://xpn.com.ua/
+
+Sounds
+
+Tools
+WavePad Sound Editor	http://www.nch.com.au/wavepad/index.html
+
+Sounds
+background.ogg	http://www.freesound.org/samplesViewSingle.php?id=554
+click.ogg	http://www.freesound.org/samplesViewSingle.php?id=113218
+coin.ogg	http://www.freesound.org/samplesViewSingle.php?id=75235
+death.ogg	http://www.freesound.org/samplesViewSingle.php?id=76958
+lose.ogg	http://www.freesound.org/samplesViewSingle.php?id=56521
+meow.ogg	http://www.freesound.org/samplesViewSingle.php?id=18271
+music.ogg	http://www.freesound.org/samplesViewSingle.php?id=21568
+select.ogg	http://www.freesound.org/samplesViewSingle.php?id=73560
+win.ogg	http://www.freesound.org/samplesViewSingle.php?id=62176
+others	self-made
+
+See readme.txt for initial information.

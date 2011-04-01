@@ -1,0 +1,11 @@
+./Assets/*.bmp
+./Assets/*.jpg
+./Assets/*.ogg
+./Assets/*.png
+./Assets/*.txt
+./Assets/*.x
+./Assets/*.xml
+acknowledgements.htm
+acknowledgements.txt
+readme.htm
+readme.txt

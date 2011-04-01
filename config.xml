@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <screen driverType="5" width="800" height="600" bpp="32" windowed="true" caption="Pathman"/>
+    <assets path="Assets.paf"/>
+    <performance sleep="10"/>
+    <stages>
+        <stage type="0" configFilename="LogoScreens/gameloft.xml"/>
+        <stage type="0" configFilename="LogoScreens/splash.xml"/>
+        <stage type="1" configFilename="Menus/sound.xml"/>
+        <stage type="1" configFilename="Menus/main.xml"/>
+        <stage type="2" configFilename="Levels/default.xml"/>
+		<stage type="1" configFilename="Menus/intermediate.xml"/>
+		<stage type="1" configFilename="Menus/playAgain.xml"/>
+		<stage type="0" configFilename="LogoScreens/help.xml"/>
+		<stage type="0" configFilename="LogoScreens/about.xml"/>
+		<stage type="0" configFilename="LogoScreens/win.xml"/>
+		<stage type="0" configFilename="LogoScreens/lose.xml"/>
+    </stages>
+</game>

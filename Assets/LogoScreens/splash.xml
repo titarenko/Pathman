@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logoScreen backgroundTexture="Images/background.png" logoTexture="Images/splash-logo.png"
+            fadeTime="300" duration="0" defaultDeactivationEvent="4"
+			backgroundSound="Sounds/silence.ogg" scaleTime="0" loopBackgroundSound="true">
+    <activationEvents>
+        <activationEvent value="3"/>
+    </activationEvents>
+</logoScreen>

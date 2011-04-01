@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level backgroundTexture="Images/background.png" fadeTime="300" defaultDeactivationEvent="0"
+       backgroundSound="Sounds/music.ogg" loopBackgroundSound="true">
+    <activationEvents>
+        <activationEvent value="7"/>
+        <activationEvent value="15"/>
+    </activationEvents>
+    <sounds>
+        <sound type="hit" filename="Sounds/meow.ogg"/>
+        <sound type="coin" filename="Sounds/coin.ogg"/>
+        <sound type="death" filename="Sounds/death.ogg"/>
+    </sounds>
+    <hud>
+        <coinsCountLabel prefix="Coins: " x="0" y="128" width="400" height="30"
+                         font="Fonts/indigo-20.xml" fontColorRed="250" fontColorGreen="250" fontColorBlue="0"/>
+        <livesCountLabel prefix="Lives: " x="0" y="158" width="400" height="30"
+                         font="Fonts/indigo-20.xml" fontColorRed="250" fontColorGreen="250" fontColorBlue="0"/>
+        <pauseIndicatorLabel prefix="Paused" x="0" y="200" width="400" height="200"
+                             font="Fonts/indigo-20.xml" fontColorRed="250" fontColorGreen="0" fontColorBlue="0"/>
+        <minimap x="0" y="0" width="128" height="128" rttWidth="128" rttHeight="128" opacity="0.9"/>
+    </hud>
+    <environment left="Images/lefttron.jpg" right="Images/righttron.jpg"
+                 top="Images/downtron.jpg" bottom="Images/uptron.jpg"
+                 front="Images/fronttron.jpg" back="Images/backtron.jpg"/>
+    <keys>
+        <key type="pause" code="32"/>
+        <key type="abort" code="27"/>
+    </keys>
+    <camera fov="45" near="1" far="10000"/>
+    <board width="16" height="16"
+           model="Models/floor.x" animationSpeed="0" anisotropicFiltering="true">
+        <obstacles model="Models/wall.x" animationSpeed="0" anisotropicFiltering="true">
+            <obstacle position="38"/>
+            <obstacle position="255"/>
+            <obstacle position="118"/>
+            <obstacle position="11"/>
+            <obstacle position="88"/>
+            <obstacle position="99"/>
+            <obstacle position="101"/>
+            <obstacle position="111"/>
+            <obstacle position="112"/>
+            <obstacle position="145"/>
+            <obstacle position="89"/>
+            <obstacle position="12"/>
+            <obstacle position="13"/>
+        </obstacles>
+        <coins model="Models/coin.x" animationSpeed="6000" anisotropicFiltering="true" rotationSpeed="1">
+            <coin position="39"/>
+            <coin position="247"/>
+            <coin position="252"/>
+            <coin position="253"/>
+            <coin position="254"/>
+            <coin position="246"/>
+            <coin position="245"/>
+            <coin position="244"/>
+        </coins>
+    </board>
+    <mainCharacter model="Models/hero.x" animationSpeed="3000" anisotropicFiltering="true"
+                   position="97" speed="8.1" livesCount="3" invisibilityTime="3000"
+                   controllerId="0"/>
+    <enemies model="Models/creature.x" animationSpeed="3000" anisotropicFiltering="true">
+        <enemy controllerId="1" position="40" speed="3"/>
+        <enemy controllerId="2" position="41" speed="3"/>
+        <enemy controllerId="3" position="42" speed="3"/>
+    </enemies>
+    <cameraController>
+        <mouseSensitivity horizontal="1" vertical="1"/>
+        <wheelSensitivity value="20"/>
+        <cameraAngles fi="0" theta="0.04"/>
+        <cameraRadius value="1500" min="100" max="5000"/>
+    </cameraController>
+    <manualMovableController id="0">
+        <control key="87" direction="1"/>
+        <control key="83" direction="2"/>
+        <control key="65" direction="3"/>
+        <control key="68" direction="4"/>
+    </manualMovableController>
+    <randomMovableController id="1" turnProbability="0.3"/>
+    <pursuingMovableController id="2"/>
+    <walkingMovableController id="3" waypointsSetId="0"/>
+    <waypoints>
+        <waypoint setId="0" direction="1"/>
+        <waypoint setId="0" direction="1"/>
+        <waypoint setId="0" direction="3"/>
+        <waypoint setId="0" direction="3"/>
+        <waypoint setId="0" direction="2"/>
+        <waypoint setId="0" direction="2"/>
+        <waypoint setId="0" direction="4"/>
+        <waypoint setId="0" direction="4"/>
+    </waypoints>
+</level>

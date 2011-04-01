@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu fadeTime="300" backgroundTexture="Images/background.png"
+      columnsCount="3" margin="5" buttonWidth="210" buttonHeight="80"
+      defaultButtonTexture="Images/button.png"
+      activeButtonTexture="Images/button-active.png"
+      clickedButtonTexture="Images/button-clicked.png"
+      font="Fonts/cheri-20.xml" fontColorRed="0" fontColorGreen="0" fontColorBlue="50"
+      defaultDeactivationEvent="0"
+	  backgroundSound="Sounds/background.ogg" loopBackgroundSound="true">
+    <activationEvents>
+        <activationEvent value="12"/>
+    </activationEvents>
+    <buttons clickSound="Sounds/click.ogg" selectSound="Sounds/select.ogg">
+        <button event="15" text="Resume"/>
+        <button event="16" text="Main Menu"/>
+        <button event="11" text="Exit"/>
+    </buttons>
+</menu>
